@@ -1,16 +1,10 @@
 deployment:
- dockerhub:
-
+  dockerhub:
     branch: master
     commands:
       - $DOCKER_HUB_TRIGGER:
-      - timeout: 600
-
-
-     
 
 test:
-  override:
-    - docker-compose run -d --no-deps web
-    - cd app; mocha
+  override:    
+    - mocha
 
