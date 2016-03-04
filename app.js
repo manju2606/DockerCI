@@ -1,4 +1,4 @@
-// Sample node.js web app for Pluralsight Docker CI course
+// Sample node.js web app  Docker CI 
 // For demonstration purposes only
 'use strict';
 
