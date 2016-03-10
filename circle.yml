@@ -4,6 +4,7 @@ deployment:
     commands:
       - $DOCKER_TRIGGER
 
+
 test:
   override:    
     - mocha
